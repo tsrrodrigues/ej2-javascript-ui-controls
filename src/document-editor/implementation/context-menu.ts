@@ -541,7 +541,7 @@ export class ContextMenu {
      * @param {string} content 
      */
     private callSelectedOption(content: string): void {
-        if (content === 'Add to Dictionary') {
+        if (content === 'Adicionar ao Dicionário') {
             this.spellChecker.handleAddToDictionary();
         } else if (content === 'Ignore All') {
             this.spellChecker.handleIgnoreAllItems();
